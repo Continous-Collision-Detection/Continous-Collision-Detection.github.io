@@ -1,8 +1,8 @@
-site_name: Continuous Collision Detection
-site_url: "http://Continuous-Collision-Detection.github.io/"
-repo_name: "Continuous-Collision-Detection"
-repo_url: "https://github.com/Continuous-Collision-Detection"
-site_description: "A Collection of Continuos Collision Detection Methods"
+site_name: Continous Collision Detection
+site_url: "http://Continous-Collision-Detection.github.io/"
+repo_name: "Continous-Collision-Detection"
+repo_url: "https://github.com/Continous-Collision-Detection/"
+site_description: "A Collection of Continuous Collision Detection Methods"
 # strict: true
 docs_dir: "docs"
 remote_branch: "master"
