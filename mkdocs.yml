@@ -1,7 +1,7 @@
-site_name: Continous Collision Detection
-site_url: "http://Continous-Collision-Detection.github.io/"
-repo_name: "Continous-Collision-Detection"
-repo_url: "https://github.com/Continous-Collision-Detection/"
+site_name: Continuous Collision Detection
+site_url: "http://Continuous-Collision-Detection.github.io/"
+repo_name: "Continuous-Collision-Detection"
+repo_url: "https://github.com/Continuous-Collision-Detection"
 site_description: "A Collection of Continuos Collision Detection Methods"
 # strict: true
 docs_dir: "docs"
@@ -17,7 +17,7 @@ theme:
 extra:
   social:
     - type: "github"
-      link: "https://github.com/Continous-Collision-Detection"
+      link: "https://github.com/Continuous-Collision-Detection"
 markdown_extensions:
   - codehilite
   - footnotes
@@ -37,8 +37,8 @@ markdown_extensions:
   - pymdownx.magiclink:
       repo_url_shorthand: true
       repo_url_shortener: true
-      user: Continous-Collision-Detection
-      repo: Continous-Collision-Detection
+      user: Continuous-Collision-Detection
+      repo: Continuous-Collision-Detection
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences

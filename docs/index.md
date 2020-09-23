@@ -1,3 +1,3 @@
-# Continous Collision Detection Methods
+# Continuous Collision Detection Methods
 
 TODO
