@@ -1,0 +1,52 @@
+site_name: Continous Collision Detection
+site_url: "http://Continous-Collision-Detection.github.io/"
+repo_name: "Continous-Collision-Detection"
+repo_url: "https://github.com/Continous-Collision-Detection/"
+site_description: "A Collection of Continuos Collision Detection Methods"
+# strict: true
+docs_dir: "docs"
+remote_branch: "master"
+theme:
+  name: material
+  favicon: "xxx.ico"
+  logo:
+    icon: " "
+  palette:
+    primary: "orange"
+    accent: "deep orange"
+extra:
+  social:
+    - type: "github"
+      link: "https://github.com/Continous-Collision-Detection"
+markdown_extensions:
+  - codehilite
+  - footnotes
+  - admonition
+  - toc:
+      permalink: true
+  - markdown.extensions.smarty
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      repo_url_shortener: true
+      user: Continous-Collision-Detection
+      repo: Continous-Collision-Detection
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+plugins:
+extra_javascript:
+  - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"
+nav:
+  - Home: index.md
