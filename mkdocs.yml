@@ -8,9 +8,9 @@ docs_dir: "docs"
 remote_branch: "master"
 theme:
   name: material
-  favicon: "xxx.ico"
+  favicon: "favicon.ico"
   logo:
-    icon: " "
+    icon: "golf-ball.png"
   palette:
     primary: "orange"
     accent: "deep orange"
