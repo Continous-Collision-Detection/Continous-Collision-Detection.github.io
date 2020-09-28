@@ -1,4 +1,18 @@
+<center>
 # A Large Scale Benchmark and an Inclusion-Based Algorithm for Continuous Collision Detection
+
+<h3>
+<a href="https://github.com/wangbolun300">Bolun Wang</a><sup style="color:gray">*</sup>,
+<a href="https://zfergus.me">Zachary Ferguson</a><sup style="color:gray">*</sup>,
+<a href="https://cs.nyu.edu/~teseo/">Teseo Schneider</a>,
+<a href="">Xin Jiang</a>,
+<a href="https://www.cnr.it/en/people/marco.attene">Marco Attene</a>,
+<a href="https://cims.nyu.edu/gcl/daniele.html">Daniele Panozzo</a>
+</h3>
+<span style="color:gray;margin-top:0">(<sup>*</sup>Joint first authors)</p>
+</center>
+
+---
 
 ## Paper
 
@@ -13,6 +27,10 @@ We discover that, despite the widespread use of CCD algorithms, existing algorit
 By combining the seminal interval root finding algorithm introduced by Snyder in 1992 with modern predicate design techniques, we propose a simple and efficient CCD algorithm. This algorithm is competitive with state of the art methods in terms of runtime while conservatively reporting the time of impact and allowing explicit trade off between runtime efficiency and number of false positives reported.
 
 ## Source Code and Data
+
+[![Build status](https://github.com/Continuous-Collision-Detection/CCD-Wrapper/workflows/Build/badge.svg)](https://github.com/Continuous-Collision-Detection/CCD-Wrapper/actions?query=workflow%3ABuild+branch%3Amaster+event%3Apush)
+<!-- [![](https://github.com/libigl/libigl/workflows/Nightly/badge.svg)](https://github.com/libigl/libigl/actions?query=workflow%3ANightly+branch%3Amaster+event%3Aschedule) -->
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/github/license/Continuous-Collision-Detection/CCD-Wrapper.svg?color=blue"></img></a>
 
 * [GitHub Organization](https://github.com/Continuous-Collision-Detection)
 * [Wrapper and Benchmark](https://github.com/Continuous-Collision-Detection/CCD-Wrapper)
