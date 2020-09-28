@@ -12,6 +12,12 @@
 <span style="color:gray;margin-top:0">(<sup>*</sup>Joint first authors)</p>
 </center>
 
+<img src="assets/images/teaser.png">
+
+<h6>
+An overview of the results of our study of different CCD methods run on 60 million queries (both vertex-face and edge-edge). For each method, we show the number of false positives (i.e., the method detects a collision where there is none), the number of false negatives (i.e., the method misses a collision), and the average run time. Each plot reports results in a logarithmic scale. False positives and negatives are computed with respect to the ground truth computed using Mathematica [Wolfram Research Inc. 2020].
+</h6>
+
 ---
 
 ## Paper
