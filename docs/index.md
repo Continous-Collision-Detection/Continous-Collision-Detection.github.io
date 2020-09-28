@@ -1,5 +1,5 @@
 <center>
-# A Large Scale Benchmark and an Inclusion-Based Algorithm for Continuous Collision Detection
+<h1>A Large Scale Benchmark and an Inclusion-Based Algorithm for Continuous Collision Detection</h1>
 
 <h3>
 <a href="https://github.com/wangbolun300">Bolun Wang</a><sup style="color:gray">*</sup>,
@@ -37,4 +37,8 @@ By combining the seminal interval root finding algorithm introduced by Snyder in
 * [Novel Inclusion-Based CCD](https://github.com/Continuous-Collision-Detection/Tight-Inclusion)
 * Queries:
     * [Sample](https://github.com/Continuous-Collision-Detection/Sample-Queries)
-    * Full Dataset (coming soon)
+    * [Full Dataset](https://archive.nyu.edu/handle/2451/61518)
+
+## Acknowledgments
+
+This work was partially supported by the NSF CAREER award under Grant No. 1652515, the NSF grants OAC-1835712, OIA-1937043, CHS-1908767, CHS-1901091, National Key Research and Development Program of China No. 2018YFB1107402, EU ERC Advanced Grant CHANGE No. 694515, a gift from Adobe Research, a gift from nTopology, and a gift from Advanced Micro Devices, Inc.
