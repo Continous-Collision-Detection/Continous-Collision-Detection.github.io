@@ -9,15 +9,15 @@ remote_branch: "master"
 theme:
   name: material
   favicon: "favicon.ico"
-  logo:
-    icon: "golf-ball.png"
+  icon:
+    logo: ''
   palette:
     primary: "orange"
     accent: "deep orange"
 extra:
   social:
-    - type: "github"
-      link: "https://github.com/Continuous-Collision-Detection"
+    - icon: fontawesome/brands/github-alt
+      link: 'https://github.com/Continuous-Collision-Detection'
 markdown_extensions:
   - codehilite
   - footnotes
