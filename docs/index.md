@@ -22,7 +22,7 @@ An overview of the results of our study of different CCD methods run on 60 milli
 
 ## Paper
 
-Coming soon!
+[arXiv](https://arxiv.org/abs/2009.13349)
 
 ## Abstract
 
