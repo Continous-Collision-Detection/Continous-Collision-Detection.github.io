@@ -8,7 +8,7 @@ p {
 <center>
 <h1>A Large Scale Benchmark and an Inclusion-Based Algorithm for Continuous Collision Detection</h1>
 
-<h3>
+<h3 style="margin-bottom:0;">
 <a href="https://github.com/wangbolun300">Bolun Wang</a><sup style="color:gray">*</sup>,
 <a href="https://zfergus.me">Zachary Ferguson</a><sup style="color:gray">*</sup>,
 <a href="https://cs.nyu.edu/~teseo/">Teseo Schneider</a>,
@@ -16,7 +16,9 @@ p {
 <a href="https://www.cnr.it/en/people/marco.attene">Marco Attene</a>,
 <a href="https://cims.nyu.edu/gcl/daniele.html">Daniele Panozzo</a>
 </h3>
-<div style="color:gray;margin-top:0;text-align:center">(<sup>*</sup>Joint first authors)</div>
+<div style="color:gray;text-align:center;font-size:10pt;">(<sup>*</sup>Joint first authors)</div>
+
+<center>*ACM Transactions on Graphics, 2021*</center>
 </center>
 
 
@@ -56,7 +58,7 @@ By combining the seminal interval root finding algorithm introduced by Snyder in
 ## Source Code and Data
 
 [![Build status](https://github.com/Continuous-Collision-Detection/CCD-Wrapper/workflows/Build/badge.svg)](https://github.com/Continuous-Collision-Detection/CCD-Wrapper/actions?query=workflow%3ABuild+branch%3Amaster+event%3Apush)
-<!-- [![](https://github.com/libigl/libigl/workflows/Nightly/badge.svg)](https://github.com/libigl/libigl/actions?query=workflow%3ANightly+branch%3Amaster+event%3Aschedule) -->
+[![Nightly build](https://github.com/Continuous-Collision-Detection/CCD-Wrapper/workflows/Nightly/badge.svg)](https://github.com/Continuous-Collision-Detection/CCD-Wrapper/actions?query=workflow%3ANightly+branch%3Amaster+event%3Aschedule)
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/github/license/Continuous-Collision-Detection/CCD-Wrapper.svg?color=blue"></img></a>
 
 * [GitHub Organization](https://github.com/Continuous-Collision-Detection)
@@ -65,6 +67,17 @@ By combining the seminal interval root finding algorithm introduced by Snyder in
 * Queries:
     * [Sample](https://github.com/Continuous-Collision-Detection/Sample-Queries)
     * [Full Dataset](https://archive.nyu.edu/handle/2451/61518)
+
+## BibTex
+
+```bibtex
+@article{Wang:2021:Benchmark,
+	title   = {A Large Scale Benchmark and an Inclusion-Based Algorithm for Continuous Collision Detection},
+	author  = {Bolun Wang and Zachary Ferguson and Teseo Schneider and Xin Jiang and Marco Attene and Daniele Panozzo},
+	year    = 2021,
+	journal = {ACM Transactions on Graphics}
+}
+```
 
 ## Acknowledgments
 
