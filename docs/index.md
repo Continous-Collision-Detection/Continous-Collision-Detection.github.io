@@ -1,3 +1,10 @@
+<style>
+p {
+    text-align: justify;
+}
+</style>
+
+
 <center>
 <h1>A Large Scale Benchmark and an Inclusion-Based Algorithm for Continuous Collision Detection</h1>
 
@@ -9,14 +16,16 @@
 <a href="https://www.cnr.it/en/people/marco.attene">Marco Attene</a>,
 <a href="https://cims.nyu.edu/gcl/daniele.html">Daniele Panozzo</a>
 </h3>
-<span style="color:gray;margin-top:0">(<sup>*</sup>Joint first authors)</p>
+<div style="color:gray;margin-top:0;text-align:center">(<sup>*</sup>Joint first authors)</div>
 </center>
 
-<img src="assets/images/teaser.png">
 
-<h6>
-An overview of the results of our study of different CCD methods run on 60 million queries (both vertex-face and edge-edge). For each method, we show the number of false positives (i.e., the method detects a collision where there is none), the number of false negatives (i.e., the method misses a collision), and the average run time. Each plot reports results in a logarithmic scale. False positives and negatives are computed with respect to the ground truth computed using Mathematica [Wolfram Research Inc. 2020].
-</h6>
+<figure>
+    <img src="assets/images/teaser.png">
+    <figcaption style="margin:inherit 0; max-width:none; font-size:.8em;font-weight:700;text-align: justify;">
+        An overview of the results of our study of different CCD methods run on 60 million queries (both vertex-face and edge-edge). For each method, we show the number of false positives (i.e., the method detects a collision where there is none), the number of false negatives (i.e., the method misses a collision), and the average run time. Each plot reports results in a logarithmic scale. False positives and negatives are computed with respect to the ground truth computed using Mathematica [Wolfram Research Inc. 2020].
+    </figcaption>
+</figure>
 
 ---
 
@@ -31,6 +40,18 @@ We introduce a large scale benchmark for continuous collision detection (CCD) al
 We discover that, despite the widespread use of CCD algorithms, existing algorithms are either: (1) correct but impractically slow, (2) efficient but incorrect, introducing false negatives which will lead to interpenetration, or (3) correct but over conservative, reporting a large number of false positives which might lead to inaccuracies when integrated in a simulator.
 
 By combining the seminal interval root finding algorithm introduced by Snyder in 1992 with modern predicate design techniques, we propose a simple and efficient CCD algorithm. This algorithm is competitive with state of the art methods in terms of runtime while conservatively reporting the time of impact and allowing explicit trade off between runtime efficiency and number of false positives reported.
+
+## Video
+
+<figure>
+    <video width="100%" controls>
+        <source src="assets/videos/roller-ball.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <figcaption style="margin:inherit 0; max-width:none; text-align: justify;">
+        Inaccurate collision detection can lead to unnatural "sticking" and eventual failure when integrated into simulators (show here using <a href="https://ipc-sim.github.io">IPC [Li et al. 2020]</a>) because part of the geometry gets stuck inside. Here we show a false negative reported by the Root-Parity method of Brochu et al. [2012] causes the ball to get stuck inside the rollers. Our conservative CCD never misses collisions and so the ball can pass through the rollers without problems.
+    </figcaption>
+</figure>
 
 ## Source Code and Data
 
@@ -47,4 +68,4 @@ By combining the seminal interval root finding algorithm introduced by Snyder in
 
 ## Acknowledgments
 
-This work was partially supported by the NSF CAREER award under Grant No. 1652515, the NSF grants OAC-1835712, OIA-1937043, CHS-1908767, CHS-1901091, National Key Research and Development Program of China No. 2018YFB1107402, EU ERC Advanced Grant CHANGE No. 694515, a gift from Adobe Research, a gift from nTopology, and a gift from Advanced Micro Devices, Inc.
+This work was partially supported by the NSF CAREER award under Grant No. 1652515, the NSF grants OAC-1835712, OIA-1937043, CHS-1908767, CHS-1901091, National Key Research and Development Program of China No. 2020YFA0713700, EU ERC Advanced Grant CHANGE No. 694515, a Sloan Fellowship, a gift from Adobe Research, a gift from nTopology, and a gift from Advanced Micro Devices, Inc.
