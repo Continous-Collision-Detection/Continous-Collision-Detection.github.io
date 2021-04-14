@@ -10,8 +10,8 @@ p {
 
 <h3 style="margin-bottom:0;">
 <a href="https://github.com/wangbolun300">Bolun Wang</a><sup style="color:gray">*</sup>,
-<a href="https://zfergus.me">Zachary Ferguson</a><sup style="color:gray">*</sup>,
-<a href="https://cs.nyu.edu/~teseo/">Teseo Schneider</a>,
+<a href="https://zferg.us">Zachary Ferguson</a><sup style="color:gray">*</sup>,
+<a href="http://web.uvic.ca/~teseo/">Teseo Schneider</a>,
 <a href="">Xin Jiang</a>,
 <a href="https://www.cnr.it/en/people/marco.attene">Marco Attene</a>,
 <a href="https://cims.nyu.edu/gcl/daniele.html">Daniele Panozzo</a>
