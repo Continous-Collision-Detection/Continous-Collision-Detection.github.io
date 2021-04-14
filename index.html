@@ -9,11 +9,12 @@
         <meta name="description" content="A Collection of Continuous Collision Detection Methods">
       
       
+      
         <link rel="canonical" href="http://Continuous-Collision-Detection.github.io/">
       
       
       <link rel="shortcut icon" href="assets/favicon.ico">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.0.1">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.3">
     
     
       
@@ -21,10 +22,10 @@
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.38780c08.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.2cb7adb3.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.3f72e892.min.css">
+        <link rel="stylesheet" href="assets/stylesheets/palette.f0267088.min.css">
         
           
           
@@ -73,7 +74,9 @@
       
     </div>
     
-      <header class="md-header" data-md-component="header">
+      
+
+<header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid" aria-label="Header">
     <a href="http://Continuous-Collision-Detection.github.io/" title="Continuous Collision Detection" class="md-header-nav__button md-logo" aria-label="Continuous Collision Detection">
       
@@ -158,7 +161,9 @@
               <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
-                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+                    
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="http://Continuous-Collision-Detection.github.io/" title="Continuous Collision Detection" class="md-nav__button md-logo" aria-label="Continuous Collision Detection">
       
@@ -201,7 +206,7 @@
         <span class="md-nav__icon md-icon"></span>
       </label>
     
-    <a href="." title="Home" class="md-nav__link md-nav__link--active">
+    <a href="." class="md-nav__link md-nav__link--active">
       Home
     </a>
     
@@ -226,6 +231,13 @@
         <li class="md-nav__item">
   <a href="#abstract" class="md-nav__link">
     Abstract
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#video" class="md-nav__link">
+    Video
   </a>
   
 </li>
@@ -287,6 +299,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#video" class="md-nav__link">
+    Video
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#source-code-and-data" class="md-nav__link">
     Source Code and Data
   </a>
@@ -317,8 +336,15 @@
                   </a>
                 
                 
-                <p><center>
-<h1>A Large Scale Benchmark and an Inclusion-Based Algorithm for Continuous Collision Detection</h1></p>
+                <style>
+p {
+    text-align: justify;
+}
+</style>
+
+<p><center></p>
+<h1>A Large Scale Benchmark and an Inclusion-Based Algorithm for Continuous Collision Detection</h1>
+
 <h3>
 <a href="https://github.com/wangbolun300">Bolun Wang</a><sup style="color:gray">*</sup>,
 <a href="https://zfergus.me">Zachary Ferguson</a><sup style="color:gray">*</sup>,
@@ -327,13 +353,14 @@
 <a href="https://www.cnr.it/en/people/marco.attene">Marco Attene</a>,
 <a href="https://cims.nyu.edu/gcl/daniele.html">Daniele Panozzo</a>
 </h3>
-
-<p><span style="color:gray;margin-top:0">(<sup>*</sup>Joint first authors)</p>
-</center></p>
-<p><img src="assets/images/teaser.png"></p>
-<h6>
-An overview of the results of our study of different CCD methods run on 60 million queries (both vertex-face and edge-edge). For each method, we show the number of false positives (i.e., the method detects a collision where there is none), the number of false negatives (i.e., the method misses a collision), and the average run time. Each plot reports results in a logarithmic scale. False positives and negatives are computed with respect to the ground truth computed using Mathematica [Wolfram Research Inc. 2020].
-</h6>
+<div style="color:gray;margin-top:0;text-align:center">(<sup>*</sup>Joint first authors)</div>
+<p></center></p>
+<figure>
+    <img src="assets/images/teaser.png">
+    <figcaption style="margin:inherit 0; max-width:none; font-size:.8em;font-weight:700;text-align: justify;">
+        An overview of the results of our study of different CCD methods run on 60 million queries (both vertex-face and edge-edge). For each method, we show the number of false positives (i.e., the method detects a collision where there is none), the number of false negatives (i.e., the method misses a collision), and the average run time. Each plot reports results in a logarithmic scale. False positives and negatives are computed with respect to the ground truth computed using Mathematica [Wolfram Research Inc. 2020].
+    </figcaption>
+</figure>
 
 <hr />
 <h2 id="paper">Paper<a class="headerlink" href="#paper" title="Permanent link">&para;</a></h2>
@@ -342,10 +369,21 @@ An overview of the results of our study of different CCD methods run on 60 milli
 <p>We introduce a large scale benchmark for continuous collision detection (CCD) algorithms, composed of queries manually constructed to highlight challenging degenerate cases and automatically generated using existing simulators to cover common cases. We use the benchmark to evaluate the accuracy, correctness, and efficiency of state-of-the-art continuous collision detection algorithms, both with and without minimal separation.</p>
 <p>We discover that, despite the widespread use of CCD algorithms, existing algorithms are either: (1) correct but impractically slow, (2) efficient but incorrect, introducing false negatives which will lead to interpenetration, or (3) correct but over conservative, reporting a large number of false positives which might lead to inaccuracies when integrated in a simulator.</p>
 <p>By combining the seminal interval root finding algorithm introduced by Snyder in 1992 with modern predicate design techniques, we propose a simple and efficient CCD algorithm. This algorithm is competitive with state of the art methods in terms of runtime while conservatively reporting the time of impact and allowing explicit trade off between runtime efficiency and number of false positives reported.</p>
+<h2 id="video">Video<a class="headerlink" href="#video" title="Permanent link">&para;</a></h2>
+<figure>
+    <video width="100%" controls>
+        <source src="assets/videos/roller-ball.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <figcaption style="margin:inherit 0; max-width:none; text-align: justify;">
+        Inaccurate collision detection can lead to unnatural "sticking" and eventual failure when integrated into simulators (show here using <a href="https://ipc-sim.github.io">IPC [Li et al. 2020]</a>) because part of the geometry gets stuck inside. Here we show a false negative reported by the Root-Parity method of Brochu et al. [2012] causes the ball to get stuck inside the rollers. Our conservative CCD never misses collisions and so the ball can pass through the rollers without problems.
+    </figcaption>
+</figure>
+
 <h2 id="source-code-and-data">Source Code and Data<a class="headerlink" href="#source-code-and-data" title="Permanent link">&para;</a></h2>
-<p><a href="https://github.com/Continuous-Collision-Detection/CCD-Wrapper/actions?query=workflow%3ABuild+branch%3Amaster+event%3Apush"><img alt="Build status" src="https://github.com/Continuous-Collision-Detection/CCD-Wrapper/workflows/Build/badge.svg" /></a>
-<!-- <a href="https://github.com/libigl/libigl/actions?query=workflow%3ANightly+branch%3Amaster+event%3Aschedule">klzzwxh:0012</a> -->
-<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/github/license/Continuous-Collision-Detection/CCD-Wrapper.svg?color=blue"></img></a></p>
+<p><a href="https://github.com/Continuous-Collision-Detection/CCD-Wrapper/actions?query=workflow%3ABuild+branch%3Amaster+event%3Apush"><img alt="Build status" src="https://github.com/Continuous-Collision-Detection/CCD-Wrapper/workflows/Build/badge.svg" /></a></p>
+<!-- [![](https://github.com/libigl/libigl/workflows/Nightly/badge.svg)](https://github.com/libigl/libigl/actions?query=workflow%3ANightly+branch%3Amaster+event%3Aschedule) -->
+<p><a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/github/license/Continuous-Collision-Detection/CCD-Wrapper.svg?color=blue"></img></a></p>
 <ul>
 <li><a href="https://github.com/Continuous-Collision-Detection">GitHub Organization</a></li>
 <li><a href="https://github.com/Continuous-Collision-Detection/CCD-Wrapper">Wrapper and Benchmark</a></li>
@@ -357,7 +395,7 @@ An overview of the results of our study of different CCD methods run on 60 milli
 </li>
 </ul>
 <h2 id="acknowledgments">Acknowledgments<a class="headerlink" href="#acknowledgments" title="Permanent link">&para;</a></h2>
-<p>This work was partially supported by the NSF CAREER award under Grant No. 1652515, the NSF grants OAC-1835712, OIA-1937043, CHS-1908767, CHS-1901091, National Key Research and Development Program of China No. 2018YFB1107402, EU ERC Advanced Grant CHANGE No. 694515, a gift from Adobe Research, a gift from nTopology, and a gift from Advanced Micro Devices, Inc.</p>
+<p>This work was partially supported by the NSF CAREER award under Grant No. 1652515, the NSF grants OAC-1835712, OIA-1937043, CHS-1908767, CHS-1901091, National Key Research and Development Program of China No. 2020YFA0713700, EU ERC Advanced Grant CHANGE No. 694515, a Sloan Fellowship, a gift from Adobe Research, a gift from nTopology, and a gift from Advanced Micro Devices, Inc.</p>
                 
               
               
@@ -402,8 +440,8 @@ An overview of the results of our study of different CCD methods run on 60 milli
       
     </div>
     
-      <script src="assets/javascripts/vendor.77e55a48.min.js"></script>
-      <script src="assets/javascripts/bundle.aa3f9871.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      <script src="assets/javascripts/vendor.7e0ee788.min.js"></script>
+      <script src="assets/javascripts/bundle.c1ccee15.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
       
       <script>
         app = initialize({
