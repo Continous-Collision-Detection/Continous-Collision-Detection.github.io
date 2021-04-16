@@ -373,14 +373,20 @@ p {
 </center></p>
 <figure>
     <img src="assets/images/teaser.png">
-    <figcaption style="margin:inherit 0; max-width:none; font-size:.8em;font-weight:700;text-align: justify;">
+    <figcaption style="margin:inherit 0; max-width:none; font-size:.8em; text-align: justify;">
         An overview of the results of our study of different CCD methods run on 60 million queries (both vertex-face and edge-edge). For each method, we show the number of false positives (i.e., the method detects a collision where there is none), the number of false negatives (i.e., the method misses a collision), and the average run time. Each plot reports results in a logarithmic scale. False positives and negatives are computed with respect to the ground truth computed using Mathematica [Wolfram Research Inc. 2020].
     </figcaption>
 </figure>
 
 <hr />
 <h2 id="paper">Paper<a class="headerlink" href="#paper" title="Permanent link">&para;</a></h2>
-<p><a href="https://arxiv.org/abs/2009.13349">arXiv</a></p>
+<p><b>
+<a href="assets/A Large Scale Benchmark and an Inclusion-Based Algorithm for Continuous Collision Detection [Wang et al. 2021].pdf">Paper (PDF)</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="assets/A Large Scale Benchmark and an Inclusion-Based Algorithm for Continuous Collision Detection [Wang et al. 2021] (350ppi).pdf">Low res (PDF)</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<!-- [arXiv](https://arxiv.org/abs/2009.13349) -->
+<p></b></p>
 <h2 id="abstract">Abstract<a class="headerlink" href="#abstract" title="Permanent link">&para;</a></h2>
 <p>We introduce a large scale benchmark for continuous collision detection (CCD) algorithms, composed of queries manually constructed to highlight challenging degenerate cases and automatically generated using existing simulators to cover common cases. We use the benchmark to evaluate the accuracy, correctness, and efficiency of state-of-the-art continuous collision detection algorithms, both with and without minimal separation.</p>
 <p>We discover that, despite the widespread use of CCD algorithms, existing algorithms are either: (1) correct but impractically slow, (2) efficient but incorrect, introducing false negatives which will lead to interpenetration, or (3) correct but over conservative, reporting a large number of false positives which might lead to inaccuracies when integrated in a simulator.</p>
