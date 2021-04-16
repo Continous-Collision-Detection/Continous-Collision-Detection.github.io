@@ -34,20 +34,20 @@ p {
 ## Paper
 
 <b>
-<a href="assets/A Large Scale Benchmark and an Inclusion-Based Algorithm for Continuous Collision Detection [Wang et al. 2021].pdf">Paper (PDF)</a>
+<a href="assets/CCD-benchmark-paper.pdf">Paper (PDF)</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="assets/A Large Scale Benchmark and an Inclusion-Based Algorithm for Continuous Collision Detection [Wang et al. 2021] (350ppi).pdf">Low res (PDF)</a>
+<a href="assets/CCD-benchmark-paper-350ppi.pdf">Low res (PDF)</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <!-- [arXiv](https://arxiv.org/abs/2009.13349) -->
 </b>
 
 ## Abstract
 
-We introduce a large scale benchmark for continuous collision detection (CCD) algorithms, composed of queries manually constructed to highlight challenging degenerate cases and automatically generated using existing simulators to cover common cases. We use the benchmark to evaluate the accuracy, correctness, and efficiency of state-of-the-art continuous collision detection algorithms, both with and without minimal separation.
+We introduce a large-scale benchmark for continuous collision detection (CCD) algorithms, composed of queries manually constructed to highlight challenging degenerate cases and automatically generated using existing simulators to cover common cases. We use the benchmark to evaluate the accuracy, correctness, and efficiency of state-of-the-art continuous collision detection algorithms, both with and without minimal separation.
 
-We discover that, despite the widespread use of CCD algorithms, existing algorithms are either: (1) correct but impractically slow, (2) efficient but incorrect, introducing false negatives which will lead to interpenetration, or (3) correct but over conservative, reporting a large number of false positives which might lead to inaccuracies when integrated in a simulator.
+We discover that, despite the widespread use of CCD algorithms, existing algorithms are either: (1) correct but impractically slow, (2) efficient but incorrect, introducing false negatives which will lead to interpenetration, or (3) correct but over conservative, reporting a large number of false positives which might lead to inaccuracies when integrated into a simulator.
 
-By combining the seminal interval root finding algorithm introduced by Snyder in 1992 with modern predicate design techniques, we propose a simple and efficient CCD algorithm. This algorithm is competitive with state of the art methods in terms of runtime while conservatively reporting the time of impact and allowing explicit trade off between runtime efficiency and number of false positives reported.
+By combining the seminal interval root-finding algorithm introduced by Snyder in 1992 with modern predicate design techniques, we propose a simple and efficient CCD algorithm. This algorithm is competitive with state-of-the-art methods in terms of runtime while conservatively reporting the time of impact and allowing an explicit trade-off between runtime efficiency and the number of false positives reported.
 
 ## Video
 
