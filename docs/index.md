@@ -24,7 +24,7 @@ p {
 
 <figure>
     <img src="assets/images/teaser.png">
-    <figcaption style="margin:inherit 0; max-width:none; font-size:.8em;font-weight:700;text-align: justify;">
+    <figcaption style="margin:inherit 0; max-width:none; font-size:.8em; text-align: justify;">
         An overview of the results of our study of different CCD methods run on 60 million queries (both vertex-face and edge-edge). For each method, we show the number of false positives (i.e., the method detects a collision where there is none), the number of false negatives (i.e., the method misses a collision), and the average run time. Each plot reports results in a logarithmic scale. False positives and negatives are computed with respect to the ground truth computed using Mathematica [Wolfram Research Inc. 2020].
     </figcaption>
 </figure>
@@ -33,7 +33,13 @@ p {
 
 ## Paper
 
-[arXiv](https://arxiv.org/abs/2009.13349)
+<b>
+<a href="assets/A Large Scale Benchmark and an Inclusion-Based Algorithm for Continuous Collision Detection [Wang et al. 2021].pdf">Paper (PDF)</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="assets/A Large Scale Benchmark and an Inclusion-Based Algorithm for Continuous Collision Detection [Wang et al. 2021] (350ppi).pdf">Low res (PDF)</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<!-- [arXiv](https://arxiv.org/abs/2009.13349) -->
+</b>
 
 ## Abstract
 
