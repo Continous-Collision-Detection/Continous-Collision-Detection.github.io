@@ -82,10 +82,11 @@ By combining the seminal interval root-finding algorithm introduced by Snyder in
 	author       = {Bolun Wang and Zachary Ferguson and Teseo Schneider and Xin Jiang and Marco Attene and Daniele Panozzo},
 	year         = 2021,
 	month        = jul,
-	journal      = {ACM Transactions on Graphics},
+	journal      = tog,
 	volume       = 40,
 	number       = 5,
-	articleno    = 188
+	articleno    = 188,
+	numpages     = 16
 }
 ```
 
