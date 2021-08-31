@@ -78,10 +78,14 @@ By combining the seminal interval root-finding algorithm introduced by Snyder in
 
 ```bibtex
 @article{Wang:2021:Benchmark,
-	title   = {A Large Scale Benchmark and an Inclusion-Based Algorithm for Continuous Collision Detection},
-	author  = {Bolun Wang and Zachary Ferguson and Teseo Schneider and Xin Jiang and Marco Attene and Daniele Panozzo},
-	year    = 2021,
-	journal = {ACM Transactions on Graphics}
+	title        = {A Large Scale Benchmark and an Inclusion-Based Algorithm for Continuous Collision Detection},
+	author       = {Bolun Wang and Zachary Ferguson and Teseo Schneider and Xin Jiang and Marco Attene and Daniele Panozzo},
+	year         = 2021,
+	month        = jul,
+	journal      = {ACM Transactions on Graphics},
+	volume       = 40,
+	number       = 5,
+	articleno    = 188
 }
 ```
 
