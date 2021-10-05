@@ -81,7 +81,7 @@ By combining the seminal interval root-finding algorithm introduced by Snyder in
 	title        = {A Large Scale Benchmark and an Inclusion-Based Algorithm for Continuous Collision Detection},
 	author       = {Bolun Wang and Zachary Ferguson and Teseo Schneider and Xin Jiang and Marco Attene and Daniele Panozzo},
 	year         = 2021,
-	month        = jul,
+	month        = oct,
 	journal      = tog,
 	volume       = 40,
 	number       = 5,
