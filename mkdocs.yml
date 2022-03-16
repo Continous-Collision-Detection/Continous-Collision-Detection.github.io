@@ -5,18 +5,35 @@ repo_url: "https://github.com/Continuous-Collision-Detection/"
 site_description: "A Collection of Continuous Collision Detection Methods"
 # strict: true
 docs_dir: "docs"
-remote_branch: "master"
+remote_branch: "main"
 theme:
   name: material
   favicon: 'assets/favicon.ico'
   icon:
-    logo: ''
+    logo: material/library
+    repo: fontawesome/brands/github
   palette:
-    primary: "orange"
-    accent: "deep orange"
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: "orange"
+      accent: "deep orange"
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: "orange"
+      accent: "deep orange"
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  features:
+    - navigation.expand
+    - search.suggest
+    - search.highlight
 extra:
   social:
-    - icon: fontawesome/brands/github-alt
+    - icon: fontawesome/brands/github
       link: 'https://github.com/Continuous-Collision-Detection'
 markdown_extensions:
   - codehilite
@@ -46,7 +63,15 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 plugins:
+  # - mknotebooks:
+  #   execute: true
+  #   preamble: "docs/plot_to_md.py"
+  #   timeout: -1
+  - git-revision-date
+  - search
 extra_javascript:
   - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"
 nav:
   - Home: index.md
+  - Tight Inclusion: tight_inclusion.md
+  - Root Parity: root_parity.md
