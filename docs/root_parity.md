@@ -80,7 +80,7 @@ Our method does not have numerical parameters to tune, has a performance compara
 ## BibTex
 
 ```bibtex
-@article{Wang:2021:Benchmark,
+@article{Wang:2022:FastRootParity,
 	title        = {Fast and Exact Root Parity for Continuous Collision Detection},
 	author       = {Bolun Wang and Zachary Ferguson and Xin Jiang and Marco Attene and Daniele Panozzo and Teseo Schneider},
 	year         = 2022,
