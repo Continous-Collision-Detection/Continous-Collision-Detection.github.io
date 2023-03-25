@@ -1,7 +1,7 @@
 site_name: Continuous Collision Detection
-site_url: "http://Continuous-Collision-Detection.github.io/"
+site_url: "http://continuous-collision-detection.github.io/"
 repo_name: "Continuous-Collision-Detection"
-repo_url: "https://github.com/Continuous-Collision-Detection/"
+repo_url: "https://github.com/continuous-collision-detection/"
 site_description: "A Collection of Continuous Collision Detection Methods"
 # strict: true
 docs_dir: "docs"
@@ -15,15 +15,15 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: "orange"
-      accent: "deep orange"
+      primary: "indigo"
+      accent: "indigo"
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: "orange"
-      accent: "deep orange"
+      primary: "indigo"
+      accent: "indigo"
       toggle:
         icon: material/weather-night
         name: Switch to light mode
@@ -34,7 +34,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: 'https://github.com/Continuous-Collision-Detection'
+      link: 'https://github.com/continuous-collision-detection'
 markdown_extensions:
   - codehilite
   - footnotes

@@ -55,6 +55,7 @@ By combining the seminal interval root-finding algorithm introduced by Snyder in
         <source src="videos/roller-ball.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
+    <img src="images/roller-ball.png" style="padding-top:50px;">
     <figcaption style="margin:inherit 0; max-width:none; text-align: justify;">
         Inaccurate collision detection can lead to unnatural "sticking" and eventual failure when integrated into simulators (show here using <a href="https://ipc-sim.github.io">IPC [Li et al. 2020]</a>) because part of the geometry gets stuck inside. Here we show a false negative reported by the Root-Parity method of Brochu et al. [2012] causes the ball to get stuck inside the rollers. Our conservative CCD never misses collisions and so the ball can pass through the rollers without problems.
     </figcaption>
@@ -70,7 +71,7 @@ By combining the seminal interval root-finding algorithm introduced by Snyder in
 
 * [GitHub Organization](https://github.com/Continuous-Collision-Detection)
 * [Wrapper and Benchmark](https://github.com/Continuous-Collision-Detection/CCD-Wrapper)
-* [Novel Inclusion-Based CCD](https://github.com/Continuous-Collision-Detection/Tight-Inclusion)
+* [Tight-Inclusion (Novel Inclusion-Based CCD)](https://github.com/Continuous-Collision-Detection/Tight-Inclusion)
 * Queries:
     * [Sample](https://github.com/Continuous-Collision-Detection/Sample-Queries)
     * [Full Dataset](https://archive.nyu.edu/handle/2451/61518)

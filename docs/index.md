@@ -4,13 +4,16 @@ p {
 }
 </style>
 
-# Continuous Collision Detection 
+# Continuous Collision Detection
 
 ## Papers
 
 ### <a href="tight_inclusion">A Large Scale Benchmark and an Inclusion-Based Algorithm for Continuous Collision Detection</a>
 
-<a href="tight_inclusion"><img src="tight_inclusion/images/teaser.png"></a>
+<a href="tight_inclusion">
+    <img src="tight_inclusion/images/teaser.png">
+    <img src="tight_inclusion/images/roller-ball.png" style="padding-top: 25px;">
+</a>
 
 Bolun Wang<sup style="color:gray">\*</sup>, Zachary Ferguson<sup style="color:gray">\*</sup>, Teseo Schneider, Xin Jiang, Marco Attene, Daniele Panozzo <span style="color:gray;text-align:center;font-size:10pt;">(<sup>\*</sup>Joint first authors)</span>
 
