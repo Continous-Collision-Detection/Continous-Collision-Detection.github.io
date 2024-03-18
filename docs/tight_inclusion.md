@@ -8,11 +8,11 @@ p {
 <h1>A Large Scale Benchmark and an Inclusion-Based Algorithm for Continuous Collision Detection</h1>
 
 <h3 style="margin-bottom:0;">
-<a href="https://github.com/wangbolun300">Bolun Wang</a><sup style="color:gray">*</sup>,
+<a href="https://cemse.kaust.edu.sa/people/person/bolun-wang">Bolun Wang</a><sup style="color:gray">*</sup>,
 <a href="https://zferg.us">Zachary Ferguson</a><sup style="color:gray">*</sup>,
 <a href="http://web.uvic.ca/~teseo/">Teseo Schneider</a>,
 <a href="">Xin Jiang</a>,
-<a href="https://www.cnr.it/en/people/marco.attene">Marco Attene</a>,
+<a href="https://publications.cnr.it/authors/marco.attene">Marco Attene</a>,
 <a href="https://cims.nyu.edu/gcl/daniele.html">Daniele Panozzo</a>
 </h3>
 <div style="color:gray;text-align:center;font-size:10pt;">(<sup>*</sup>Joint first authors)</div>

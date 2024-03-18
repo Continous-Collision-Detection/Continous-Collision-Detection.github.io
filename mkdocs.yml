@@ -63,10 +63,6 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 plugins:
-  # - mknotebooks:
-  #   execute: true
-  #   preamble: "docs/plot_to_md.py"
-  #   timeout: -1
   - git-revision-date
   - search
 extra_javascript:
@@ -75,3 +71,4 @@ nav:
   - Home: index.md
   - Tight Inclusion: tight_inclusion.md
   - Root Parity: root_parity.md
+  - Scalable CCD: scalable_ccd.md
