@@ -23,7 +23,7 @@ We have three papers on this topic, and the code for the algorithms and the benc
 
 Bolun&nbsp;Wang<sup style="color:gray">\*</sup>, Zachary&nbsp;Ferguson<sup style="color:gray">\*</sup>, Teseo&nbsp;Schneider, Xin&nbsp;Jiang, Marco&nbsp;Attene, Daniele&nbsp;Panozzo <span style="color:gray;text-align:center;font-size:10pt;">(<sup>\*</sup>Joint first authors)</span>
 
- *ACM Transactions on Graphics 2021*
+ *ACM Transactions on Graphics, 2021*
 
 #### Abstract
 
@@ -44,7 +44,7 @@ By combining the seminal interval root-finding algorithm introduced by Snyder in
 
 Bolun&nbsp;Wang, Zachary&nbsp;Ferguson, Xin&nbsp;Jiang, Marco &nbsp;Attene, Daniele&nbsp;Panozzo, Teseo&nbsp;Schneider
 
-*Computer Graphics Forum (Eurographics) 2022*
+*Computer Graphics Forum (Eurographics), 2022*
 
 #### Abstract
 
@@ -81,7 +81,14 @@ To foster the adoption and development of future linear CCD algorithms, and to e
 * [Tight Inclusion CCD](https://github.com/Continuous-Collision-Detection/Tight-Inclusion)
 * [Exact Root Parity CCD](https://github.com/Continuous-Collision-Detection/ExactRootParityCCD)
 * [Scalable CCD](https://github.com/Continuous-Collision-Detection/Scalable-CCD)
+* [Symbolic CCD](https://github.com/Continuous-Collision-Detection/Symbolic)
 * Queries:
     * [Sample](https://github.com/Continuous-Collision-Detection/Sample-Queries)
     * [Full Dataset](https://archive.nyu.edu/handle/2451/61518)
     * [Sample Broad Phase](https://github.com/Continuous-Collision-Detection/Sample-Scalable-CCD-Data)
+
+## Acknowledgments
+
+We thank the NYU IT High Performance Computing for resources, services, and staff expertise.
+
+This work was partially supported by the NSF CAREER award under Grant No. 1652515; the NSF grants OAC-1835712, OIA-1937043, CHS-1908767, and CHS-1901091; National Key Research and Development Program of China No. 2020YFA0713700; Natural Science Foundation of China Grants No. 12171023 and 12001028; NSERC DGECR-2021-00461 and RGPIN-2021-03707; KAUST baseline funding (grant BAS/1/1679-01-01); EU ERC Advanced Grant CHANGE No. 694515 and EU project DIGITbrain/ProMED (952071); a Sloan Fellowship; a gift from Adobe Research; a gift from nTopology; and a gift from Advanced Micro Devices, Inc.

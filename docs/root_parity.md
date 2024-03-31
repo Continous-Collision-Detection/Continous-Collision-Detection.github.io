@@ -1,9 +1,3 @@
-<style>
-p {
-    text-align: justify;
-}
-</style>
-
 <center>
 <h1>Fast and Exact Root Parity for Continuous Collision Detection</h1>
 
@@ -44,6 +38,20 @@ We introduce the first **exact** root parity counter for continuous collision de
 
 Our method does not have numerical parameters to tune, has a performance comparable to efficient approximate algorithms, and is exact. We test our approach on a large collection of synthetic tests and real simulations, and we demonstrate that it can be easily integrated into existing simulators.
 
+## Fast Forward
+
+<div class="video-wrapper">
+<iframe class="youtube" src="https://www.youtube-nocookie.com/embed/3nXvf1nI23M?si=90pItnlHagyD2Qb7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+## Presentation
+
+* Watch our full Eurographics 2022 presentation on [Bilibili](https://www.bilibili.com/video/BV12U4y1U7nV/) (English)!
+
+<div class="video-wrapper">
+<iframe class="youtube" src="https://www.youtube-nocookie.com/embed/HoEbM0fN9Wk?si=Qf76VOh03dV-PkLj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ## Simulation Videos
 
 <figure>
@@ -63,19 +71,14 @@ Our method does not have numerical parameters to tune, has a performance compara
     </figcaption>
 </figure>
 
-<!-- ## Source Code and Data -->
-## Source Code
+## Source Code and Data
 
-<!-- [![Build status](https://github.com/Continuous-Collision-Detection/CCD-Wrapper/workflows/Build/badge.svg)](https://github.com/Continuous-Collision-Detection/CCD-Wrapper/actions?query=workflow%3ABuild+branch%3Amaster+event%3Apush)
-[![Nightly build](https://github.com/Continuous-Collision-Detection/CCD-Wrapper/workflows/Nightly/badge.svg)](https://github.com/Continuous-Collision-Detection/CCD-Wrapper/actions?query=workflow%3ANightly+branch%3Amaster+event%3Aschedule) -->
 <a href="https://github.com/Continuous-Collision-Detection/ExactRootParityCCD/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/Continuous-Collision-Detection/ExactRootParityCCD.svg?color=blue"></img>
 </a>
 
 * [Code](https://github.com/Continuous-Collision-Detection/ExactRootParityCCD)
-<!-- * Queries:
-    * [Sample](https://github.com/Continuous-Collision-Detection/Sample-Queries)
-    * [Full Dataset](https://archive.nyu.edu/handle/2451/61518) -->
+* [Dataset of Rounded CCD Queries](https://archive.nyu.edu/handle/2451/63808)
 
 ## BibTex
 

@@ -16,14 +16,14 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: "indigo"
-      accent: "indigo"
+      accent: "blue"
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: "indigo"
-      accent: "indigo"
+      accent: "blue"
       toggle:
         icon: material/weather-night
         name: Switch to light mode
@@ -67,6 +67,8 @@ plugins:
   - search
 extra_javascript:
   - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"
+extra_css:
+  - stylesheets/extra.css
 nav:
   - Home: index.md
   - Tight Inclusion: tight_inclusion.md

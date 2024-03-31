@@ -1,24 +1,3 @@
-<style>
-p {
-    text-align: justify;
-}
-.video-wrapper {
-    /* border-radius: 10px; */
-    overflow: hidden;
-    position: relative;
-    padding-bottom: 56.25%;
-    /* 16:9 */
-    height: 0;
-}
-.video-wrapper iframe.youtube {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-</style>
-
 <center>
 <h1>Time of Impact Dataset for Continuous Collision Detection and a Scalable Conservative Algorithm</h1>
 
@@ -66,7 +45,7 @@ To foster the adoption and development of future linear CCD algorithms, and to e
 ## Video
 
 <div class="video-wrapper">
-<iframe class="youtube" src="https://www.youtube.com/embed/ezuC9EisPII?si=3LEO_SeiMi4v7Y14" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>
+<iframe class="youtube" src="https://www.youtube-nocookie.com/embed/ezuC9EisPII?si=_oZJwrSBQa5zV6WT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 ## Source Code and Data
@@ -76,7 +55,7 @@ To foster the adoption and development of future linear CCD algorithms, and to e
 
 * [Our Scalable CCD](https://github.com/Continuous-Collision-Detection/Scalable-CCD)
 * [Algorithms and Testing Framework]() (coming soon!)
-* Queries:
+* Data:
     * [Sample](https://github.com/Continuous-Collision-Detection/Sample-Scalable-CCD-Data)
     * [Full Dataset]() (coming soon!)
 
@@ -95,4 +74,4 @@ To foster the adoption and development of future linear CCD algorithms, and to e
 
 ## Acknowledgments
 
-This work was funded by the NSF CAREER award under Grant No. 1652515, the NSF grants OAC-1835712, OIA-1937043, CHS-1908767, CHS-1901091, NSERC DGECR-2021-00461 and RGPIN 2021-03707, KAUST baseline funding (grant BAS/1/1679-01-01), by EU project DIGITbrain/ProMED (952071).
+We thank the NYU IT High Performance Computing for resources, services, and staff expertise. This work was funded by the NSF CAREER award under Grant No. 1652515, the NSF grants OAC-1835712, OIA-1937043, CHS-1908767, CHS-1901091, NSERC DGECR-2021-00461 and RGPIN 2021-03707, KAUST baseline funding (grant BAS/1/1679-01-01), by EU project DIGITbrain/ProMED (952071).

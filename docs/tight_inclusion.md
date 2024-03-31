@@ -1,9 +1,3 @@
-<style>
-p {
-    text-align: justify;
-}
-</style>
-
 <center>
 <h1>A Large Scale Benchmark and an Inclusion-Based Algorithm for Continuous Collision Detection</h1>
 
@@ -48,6 +42,18 @@ We discover that, despite the widespread use of CCD algorithms, existing algorit
 
 By combining the seminal interval root-finding algorithm introduced by Snyder in 1992 with modern predicate design techniques, we propose a simple and efficient CCD algorithm. This algorithm is competitive with state-of-the-art methods in terms of runtime while conservatively reporting the time of impact and allowing an explicit trade-off between runtime efficiency and the number of false positives reported.
 
+## Fast Forward
+
+<div class="video-wrapper">
+<iframe class="youtube" src="https://www.youtube-nocookie.com/embed/dvbTGl5Vre8?si=YZgYkF4r9EPGVeFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+## Presentation
+
+<div class="video-wrapper">
+<iframe class="youtube" src="https://www.youtube-nocookie.com/embed/bwVIPGVvETs?si=WaY01gYqm0DcpT9m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ## Video
 
 <figure>
@@ -72,6 +78,7 @@ By combining the seminal interval root-finding algorithm introduced by Snyder in
 * [GitHub Organization](https://github.com/Continuous-Collision-Detection)
 * [Wrapper and Benchmark](https://github.com/Continuous-Collision-Detection/CCD-Wrapper)
 * [Tight-Inclusion (Novel Inclusion-Based CCD)](https://github.com/Continuous-Collision-Detection/Tight-Inclusion)
+* [Symbolic CCD](https://github.com/Continuous-Collision-Detection/Symbolic)
 * Queries:
     * [Sample](https://github.com/Continuous-Collision-Detection/Sample-Queries)
     * [Full Dataset](https://archive.nyu.edu/handle/2451/61518)
@@ -94,4 +101,4 @@ By combining the seminal interval root-finding algorithm introduced by Snyder in
 
 ## Acknowledgments
 
-This work was partially supported by the NSF CAREER award under Grant No. 1652515, the NSF grants OAC-1835712, OIA-1937043, CHS-1908767, CHS-1901091, National Key Research and Development Program of China No. 2020YFA0713700, EU ERC Advanced Grant CHANGE No. 694515, a Sloan Fellowship, a gift from Adobe Research, a gift from nTopology, and a gift from Advanced Micro Devices, Inc.
+We thank the NYU IT High Performance Computing for resources, services, and staff expertise. This work was partially supported by the NSF CAREER award under Grant No. 1652515, the NSF grants OAC-1835712, OIA-1937043, CHS-1908767, CHS-1901091, National Key Research and Development Program of China No. 2020YFA0713700, EU ERC Advanced Grant CHANGE No. 694515, a Sloan Fellowship, a gift from Adobe Research, a gift from nTopology, and a gift from Advanced Micro Devices, Inc.
