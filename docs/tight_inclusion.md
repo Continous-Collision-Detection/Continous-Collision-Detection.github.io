@@ -61,7 +61,7 @@ By combining the seminal interval root-finding algorithm introduced by Snyder in
         <source src="videos/roller-ball.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-    <img src="images/roller-ball.png" style="padding-top:50px;">
+    <!-- <img src="images/roller-ball.png" style="padding-top:50px;"> -->
     <figcaption style="margin:inherit 0; max-width:none; text-align: justify;">
         Inaccurate collision detection can lead to unnatural "sticking" and eventual failure when integrated into simulators (show here using <a href="https://ipc-sim.github.io">IPC [Li et al. 2020]</a>) because part of the geometry gets stuck inside. Here we show a false negative reported by the Root-Parity method of Brochu et al. [2012] causes the ball to get stuck inside the rollers. Our conservative CCD never misses collisions and so the ball can pass through the rollers without problems.
     </figcaption>
@@ -69,11 +69,9 @@ By combining the seminal interval root-finding algorithm introduced by Snyder in
 
 ## Source Code and Data
 
-[![Build status](https://github.com/Continuous-Collision-Detection/CCD-Wrapper/workflows/Build/badge.svg)](https://github.com/Continuous-Collision-Detection/CCD-Wrapper/actions?query=workflow%3ABuild+branch%3Amaster+event%3Apush)
-[![Nightly build](https://github.com/Continuous-Collision-Detection/CCD-Wrapper/workflows/Nightly/badge.svg)](https://github.com/Continuous-Collision-Detection/CCD-Wrapper/actions?query=workflow%3ANightly+branch%3Amaster+event%3Aschedule)
-<a href="https://github.com/Continuous-Collision-Detection/CCD-Wrapper/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/Continuous-Collision-Detection/CCD-Wrapper.svg?color=blue"></img>
-</a>
+<!-- [![Nightly build](https://github.com/Continuous-Collision-Detection/CCD-Wrapper/workflows/Nightly/badge.svg)](https://github.com/Continuous-Collision-Detection/CCD-Wrapper/actions?query=workflow%3ANightly+branch%3Amaster+event%3Aschedule) -->
+![Build status](https://github.com/Continuous-Collision-Detection/Tight-Inclusion/workflows/Build/badge.svg)
+[![License](https://img.shields.io/github/license/Continuous-Collision-Detection/Tight-Inclusion.svg?color=blue)](https://github.com/Continuous-Collision-Detection/Tight-Inclusion/blob/master/LICENSE)
 
 * [GitHub Organization](https://github.com/Continuous-Collision-Detection)
 * [Wrapper and Benchmark](https://github.com/Continuous-Collision-Detection/CCD-Wrapper)
