@@ -6,7 +6,7 @@ p {
 
 # Continuous Collision Detection
 
-![Complete Dataset of Scenes](https://raw.githubusercontent.com/Continuous-Collision-Detection/Sample-Scalable-CCD-Data/main/teaser.png)
+![Complete Dataset of Scenes](assets/teaser.png)
 
 Welcome! This is the website for the Continuous Collision Detection (CCD) projects started at the [Geometric Computing Lab @ NYU](https://cims.nyu.edu/gcl/). The goal of this work is to provide provably correct and efficient algorithms for continuous collision detection and to provide large-scale benchmarks for evaluating the correctness and efficiency of future developments.
 
@@ -86,6 +86,12 @@ To foster the adoption and development of future linear CCD algorithms, and to e
     * [Sample](https://github.com/Continuous-Collision-Detection/Sample-Queries)
     * [Full Dataset](https://archive.nyu.edu/handle/2451/61518)
     * [Sample Broad Phase](https://github.com/Continuous-Collision-Detection/Sample-Scalable-CCD-Data)
+
+## Data
+
+All the data used in the papers is available on the [NYU Faculty Digital Archive](https://archive.nyu.edu/handle/2451/61518).
+
+This includes the [handcrafted queries](https://archive.nyu.edu/handle/2451/61519), [simulation queries](https://archive.nyu.edu/handle/2451/61520), [rounded queries](https://archive.nyu.edu/handle/2451/63808), and [full scene and time of impact dataset](https://archive.nyu.edu/handle/2451/74508).
 
 ## Acknowledgments
 
