@@ -57,7 +57,7 @@ To foster the adoption and development of future linear CCD algorithms, and to e
 * [Algorithms and Testing Framework]() (coming soon!)
 * Data:
     * [Sample](https://github.com/Continuous-Collision-Detection/Sample-Scalable-CCD-Data)
-    * [Full Dataset]() (coming soon!)
+    * [Full Dataset](http://hdl.handle.net/2451/74508)
 
 ## BibTex
 
